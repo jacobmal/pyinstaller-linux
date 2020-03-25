@@ -32,6 +32,7 @@ RUN \
         libgdbm3 \
         tcl \
         tk \
+        python3-tk \
         uuid-dev \
         #upx
         upx \
