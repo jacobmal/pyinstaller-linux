@@ -30,6 +30,8 @@ RUN \
         #optional libraries
         libgdbm-dev \
         libgdbm3 \
+        tcl \
+        tk \
         uuid-dev \
         #upx
         upx \
