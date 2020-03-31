@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:12.04
 SHELL ["/bin/bash", "-i", "-c"]
 
 ARG PYTHON_VERSION=3.7.5
@@ -30,6 +30,7 @@ RUN \
         #optional libraries
         libgdbm-dev \
         libgdbm3 \
+        tk-dev \
         tcl \
         tk \
         python3-tk \
